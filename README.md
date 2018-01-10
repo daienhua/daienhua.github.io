@@ -56,7 +56,7 @@
  - 如：Button @+id/btnSearch
 
 
-#约定
+# 约定
  - Activity.onCreate()，Fragment.onActivityCreated()，作为程序入口，不用写入太多代码，尽量保持只调用initXXX()方法，简单明了展示调用过程。如：initData()，initView()。
  - 单个方法体不要过长，拆分臃肿方法，每个方法只作一件事
  - 做同一个逻辑的方法，尽量靠近放到一块，方便查看
